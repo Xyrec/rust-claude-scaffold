@@ -1,0 +1,14 @@
+# Local Claude Code settings (per-developer overrides)
+.claude/settings.local.json
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Bacon diagnostics (if using bacon background checker)
+.bacon-locations
+
+# sccache
+.sccache/
+
